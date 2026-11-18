@@ -3,6 +3,8 @@ package com.scaler.backendcapstoneproject.models;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.math.BigDecimal;
+
 @Getter
 @Setter
 public class Product extends BaseModel {
@@ -11,7 +13,7 @@ public class Product extends BaseModel {
 
     private String description;
 
-    private Double price;
+    private BigDecimal price;
 
     private Category category;
 }
