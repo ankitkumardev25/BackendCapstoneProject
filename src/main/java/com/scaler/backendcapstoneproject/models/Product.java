@@ -6,7 +6,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Product extends BaseModel {
-    private String title;
 
     private String imageUrl;
 
@@ -15,6 +14,4 @@ public class Product extends BaseModel {
     private Double price;
 
     private Category category;
-
-    private Boolean isSaleSpecific;
 }

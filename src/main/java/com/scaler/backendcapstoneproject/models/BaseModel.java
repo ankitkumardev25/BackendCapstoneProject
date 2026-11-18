@@ -15,4 +15,6 @@ public abstract class BaseModel {
     private Date lastUpdatedAt;
 
     private State state;
+    
+    private String name;
 }
