@@ -2,6 +2,11 @@ package com.scaler.backendcapstoneproject.dtos;
 
 import java.math.BigDecimal;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class ProductDto {
 
     private Long id;
